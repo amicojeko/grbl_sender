@@ -3,7 +3,7 @@ import serial
 import time
 import argparse
 
-parser = argparse.ArgumentParser(description='Sends GCODE via selected serial.')
+parser = argparse.ArgumentParser(description='Sends GCODE via serial port.')
 
 parser.add_argument("-P", help="Serial port", required=1, dest="port")
 parser.add_argument("-v", help="verbose", dest="verbose", action='store_true')
